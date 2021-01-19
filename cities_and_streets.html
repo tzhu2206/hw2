@@ -3,55 +3,48 @@
 <html>
     <head>
         <title>Cities and Streets – Tony Zhu Photography</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Cityscapes and Street Photography by Tony Zhu Photography</h1>
-        <p>Cities, streets, and people have always been at the heart of my work as I have lived in cities my whole life.</p>
-        <p>Click the images below to learn more about some of my favorite places I've photographed.</p>
-        <table>
-            <tr>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Chicago"><img src="chicago_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Washington,_D.C."><img src="dc_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Los_Angeles"><img src="la_TZ.jpg" width="250"></a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Milan"><img src="milan_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/New_York_City"><img src="nyc_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Osaka"><img src="osaka_TZ.jpg" width="250"></a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Seoul"><img src="seoul_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/San_Francisco"><img src="sf_TZ.jpg" width="250"></a>
-                </td>
-                <td>
-                    <a href="https://en.wikipedia.org/wiki/Tokyo"><img src="tokyo_TZ.jpg" width="250"></a>
-                </td>
-            </tr>
-        </table>
-        <h4>Navigation Links:</h4>
-        <ul>
-            <li><a href="index.html">Go home</a></li>
-            <li><a href="animals_and_nature.html">Animals and Nature</a></li>
-            <li><a href="commissions.html">Commissions</a></li>
-            <li><a href="gear.html">My Gear</a></li>
-        </ul>
-        <p>
-            <h6>Copyright © 2020 Tony Zhu</h6>
-        </p>
+        <div class="bg-gradient-to-r from-gray-500 via-gray-400 to-white p-1">
+            <h1 class= "text-left text-4xl font-semibold text-white mx-2 py-2">Tony Zhu Photography</h1>
+            <p class = "text-left font-thin text-white text-sm mx-2 mb-4">Cityscapes and Street Photography</p>
+        </div>
+        <div class="my-6 text-center text-gray-500 font-thin">
+            <p>Cities, streets, and people have always been at the heart of my work as I have lived in cities my whole life.</p>
+            <p>Click the images below to learn more about some of my favorite places I've photographed.</p>
+        </div>
+        <div class="md:flex pl-4">
+            <a href="https://en.wikipedia.org/wiki/Chicago"><img class="pr-4 pt-4" src="chicago_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/Washington,_D.C."><img class="pr-4 pt-4" src="dc_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/Los_Angeles"><img class="pr-4 pt-4" src="la_TZ.jpg"></a>
+        </div>
+        <div class="md:flex pl-4">
+            <a href="https://en.wikipedia.org/wiki/Milan"><img class="pr-4 pt-4" src="milan_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/New_York_City"><img class="pr-4 pt-4" src="nyc_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/Osaka"><img class="pr-4 pt-4" src="osaka_TZ.jpg"></a>
+        </div>
+        <div class="md:flex pl-4">
+            <a href="https://en.wikipedia.org/wiki/Seoul"><img class="pr-4 pt-4" src="seoul_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/San_Francisco"><img class="pr-4 pt-4" src="sf_TZ.jpg"></a>
+            <a href="https://en.wikipedia.org/wiki/Tokyo"><img class="pr-4 pt-4" src="tokyo_TZ.jpg"></a>
+        </div>
+        <div class="m-6">
+            <button class="block mx-auto p-2 rounded bg-gray-200 text-gray-500 text-sm hover:bg-gray-500 hover:text-white"> <a href="contact.html" class="text-center">Contact Me</a></button>
+        </div>
+        <div class="font-semibold underline text-gray-500 px-4 pt-4 pb-1">
+            <h4>Navigation Links:</h4>
+        </div>
+        <div class="text-gray-500 text-sm px-4">
+            <ul>
+                <li><button class="hover:bg-gray-200"><a href="index.html">Go home</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="animals_and_nature.html">Animals and Nature</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="commissions.html">Commissions</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="gear.html">My Gear</a></button></li>
+            </ul>
+        </div>
+        <div class="font-thin text-xs text-gray-500 px-4 py-8">
+            <h6>Copyright © 2021 Tony Zhu</h6>
+        </div>
     </body>
 </html>

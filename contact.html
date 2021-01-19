@@ -10,11 +10,22 @@
             <h1 class= "text-left text-4xl font-semibold text-white mx-2 py-2">Tony Zhu Photography</h1>
             <p class = "text-left font-thin text-white text-sm mx-2 mb-4">Contact Me</p>
         </div>
-        <div class="mt-3 text-center text-gray-500 font-thin">
+        <div class="my-6 text-center text-gray-500 font-thin">
             <p>Interested in a session or have questions?</p>
             <p>Fill out the form below to contact me.</p>
         </div>
-        
+        <form netlify class="mx-auto mt-8 w-1/2">
+            <label class="block mt-4 font-semibold text-gray-500" for="name">Name:</label>
+            <input class="p-2 mt-2 w-full border border-gray-400 rounded focus:outline-none focus:border-blue-400" type="text" id="name" name="name"></input>
+
+            <label class="block mt-4 font-semibold text-gray-500" for="email">Email:</label>
+            <input class="p-2 mt-2 w-full border border-gray-400 rounded focus:outline-none focus:border-blue-400" type="email" id="email" email="email"></input>
+
+            <label class="block mt-4 font-semibold text-gray-500" for="message">Message:</label>
+            <textarea class="p-2 mt-2 w-full h-48 border border-gray-400 rounded focus:outline-none focus:border-blue-400" name="message" message="message"></textarea>
+            
+            <button class="block mt-4 bg-gray-300 text-gray-500 px-4 py-2 rounded mx-auto hover:bg-gray-400 hover:text-white">Submit</button>
+        </form>
         <div class="font-semibold underline text-gray-500 px-4 pt-8 pb-1">
             <h4>Navigation Links:</h4>
         </div>

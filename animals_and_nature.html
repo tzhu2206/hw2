@@ -3,46 +3,53 @@
 <html>
     <head>
         <title>Animals and Nature – Tony Zhu Photography</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <h1>Animal and Nature Photography by Tony Zhu Photography</h1>
-        <p>As a break from the hustle and bustle of urban life, I love escaping to nature to photograph interesting landscapes and animals.</p>
-        <p>Below are some of my favorites.</p>
-        <table>
-            <tr>
-                <td>
-                    <img src="maroonbells_TZ.jpg" height="250">
-                </td>
-                <td>
-                    The Maroon Bells, near Aspen, Colorado
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    A red panda at the St. Louis Zoo
-                </td>
-                <td>
-                    <img src="redpanda_TZ.jpg" height="250">
-                </td>                
-            </tr>
-            <tr>
-                <td>
-                    <img src="alps_TZ.jpg" height="250">
-                </td>
-                <td>
-                    Jungfraujoch, in the Swiss Alps near Interlaken, Switzerland
-                </td>
-            </tr>
-        </table>
-        <h4>Navigation Links:</h4>
-        <ul>
-            <li><a href="index.html">Go home</a></li>
-            <li><a href="cities_and_streets.html">Cities and Streets</a></li>
-            <li><a href="commissions.html">Commissions</a></li>
-            <li><a href="gear.html">My Gear</a></li>
-        </ul>
-        <p>
-            <h6>Copyright © 2020 Tony Zhu</h6>
-        </p>
+        <div class="bg-gradient-to-r from-gray-500 via-gray-400 to-white p-1">
+            <h1 class= "text-left text-4xl font-semibold text-white mx-2 py-2">Tony Zhu Photography</h1>
+            <p class = "text-left font-thin text-white text-sm mx-2 mb-4">Animal and Nature Photography</p>
+        </div>
+        <div class="my-6 text-center text-gray-500 font-thin">
+            <p>As a break from the hustle and bustle of urban life, I love escaping to nature to photograph interesting landscapes and animals.</p>
+            <p>Below are some of my favorites.</p>
+        </div>
+        <div class="md:flex pl-4 text-center text-gray-500 text-sm font-semibold">
+            <div class="pr-4 pt-4">
+                <img class="" src="redpanda_TZ.jpg">
+                <p class="py-2 border">A red panda at the St. Louis Zoo</p>
+            </div>
+            <div class="pr-4 pt-4">
+                <img class="" src="maroonbells_TZ.jpg">
+                <p class="py-2 border">The Maroon Bells near Aspen, Colorado</p>
+            </div>
+        </div>
+        <div class="md:flex pl-4 text-center text-gray-500 text-sm font-semibold">
+            <div class="pr-4 pt-4">
+                <img class="" src="lion_TZ.jpg">
+                <p class="py-2 border">A male lion at the Lincoln Park Zoo</p>
+            </div>
+            <div class="pr-4 pt-4">
+                <img class="" src="alps_TZ.jpg">
+                <p class="py-2 border">Jungfraujoch, in the Swiss Alps near Interlaken, Switzerland</p>
+            </div>
+        </div>
+        <div class="m-6">
+            <button class="block mx-auto p-2 rounded bg-gray-200 text-gray-500 text-sm hover:bg-gray-500 hover:text-white"> <a href="contact.html" class="text-center">Contact Me</a></button>
+        </div>
+        <div class="font-semibold underline text-gray-500 px-4 pt-8 pb-1">
+            <h4>Navigation Links:</h4>
+        </div>
+        <div class="text-gray-500 text-sm px-4">
+            <ul>
+                <li><button class="hover:bg-gray-200"><a href="index.html">Go home</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="cities_and_streets.html">Cities and Streets</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="commissions.html">Commissions</a></button></li>
+                <li><button class="hover:bg-gray-200"><a href="gear.html">My Gear</a></button></li>
+            </ul>
+        </div>
+        <div class="font-thin text-xs text-gray-500 px-4 py-8">
+            <h6>Copyright © 2021 Tony Zhu</h6>
+        </div>
     </body>
 </html>
